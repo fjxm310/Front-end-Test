@@ -1,0 +1,306 @@
+body * {
+    font-family: 微软雅黑;
+
+    text-align: left;
+
+}
+
+::-webkit-input-placeholder {
+    font-family: 微软雅黑;
+}
+
+#Header_index {
+    margin: 0 auto;
+    padding: 0;
+    border: 0px;
+    background: transparent url("bg.png");
+    background-position: 0px -150px;
+    width: 1210px;
+    height: 100px;
+
+    color: red;
+}
+
+#Header_index a {
+    display: block;
+    float: left;
+    height: 100px;
+    width: 500px;
+    text-indent: -9999px;
+}
+
+#Header_index a:hover {
+
+    background: transparent url("bg.png");
+    background-position: 0px -250px;
+
+}
+
+#SearchUI {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    margin: 0;
+    float: right;
+    /*float: right;*/
+    /*position: absolute;*/
+    /*right: 0px;*/
+    /*width: 400px;*/
+
+}
+
+#SearchUI input {
+    margin-top: 35px;
+}
+
+#SearchUI input[type=submit] {
+    margin-right: 13px;
+    margin-left: 13px;
+    color: white;
+    height: 30px;
+    width: 30px;
+    background: rgb(174, 65, 65);
+    border: 0;
+    float: right;
+    /*position: absolute;*/
+    /*right: 0px;*/
+}
+
+#SearchUI input[type=text] {
+
+    float: right;
+    right: 0px;
+    height: 28px;
+    width: 258px;
+    border: solid 1px #ddd;
+    background: #fdfdfd;
+    /*float: right;*/
+}
+
+#NavTop {
+
+    margin: 0 auto;
+    height: 48px;
+    width: 1210px;
+    background: url("bg.png");
+
+}
+
+#NavTop a {
+    display: block;
+    height: 48px;
+}
+
+#NavTop ul {
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+}
+
+#NavTop li {
+
+    float: left;
+    display: block;
+    height: 48px;
+    list-style-type: none;
+}
+
+#NavTopH:hover {
+    background: url("bg.png") 0px -48px no-repeat;
+
+}
+
+#NavTopH {
+    width: 155px;
+}
+
+#NavTopJ:hover {
+    background: url("bg.png") -155px -48px no-repeat;
+
+}
+
+#NavTopJ {
+    width: 157px;
+}
+
+#NavTopS:hover {
+    background: url("bg.png") -312px -48px no-repeat;
+
+}
+
+#NavTopS {
+    width: 167px;
+}
+
+#NavTopA:hover {
+    background: url("bg.png") -479px -48px no-repeat;
+
+}
+
+#NavTopA {
+    width: 158px;
+}
+
+#NavTopX:hover {
+    background: url("bg.png") -637px -48px no-repeat;
+
+}
+
+#NavTopX {
+    width: 101px;
+}
+
+#NavTopWS:hover {
+    background: url("bg.png") -738px -48px no-repeat;
+
+}
+
+#NavTopWS {
+    width: 185px;
+}
+
+#NavTopWB:hover {
+    /*transition:background 2s;*/
+    background: url("bg.png") -923px -48px no-repeat;
+
+}
+
+#NavTopWB {
+    width: 177px;
+}
+
+#MainBody {
+    /*float: left;*/
+
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    width: 1208px;
+    border-right: solid #ddd 1px;
+    border-left: solid #ddd 1px;
+}
+
+#NavLeft {
+    float: left;
+    padding: 0;
+    /*margin-left: 20px;*/
+    width: 178px;
+    background: white;
+    text-decoration: none;
+}
+
+#NavLeft * {
+    text-decoration: none;
+}
+
+#NavLeft ul {
+    margin: 0;
+    padding: 0
+}
+
+#NavLeft h2 {
+    margin: 1em 0 0.5em 1em;
+    padding: 0;
+    font-size: 14px;
+}
+
+#NavLeft > a {
+    margin: 0em 0 0em 1em;
+
+    font-weight: bold;
+    font-size: 14px;
+    color: #0479a7;
+    text-decoration: none;
+    line-height: 2em;
+
+}
+
+#NavLeft > ul > li > a {
+    font-size: 10px;
+    display: block;
+    padding: 5px 0px 5px 20px;
+    width: 159px;
+    height: 20px;
+    color: black;
+
+}
+
+#NavLeft li > a:hover {
+    background: rgb(170, 170, 170);
+    /*transition:background,color 0.2s,0.2s  ;*/
+    /*transition: background, color 0.1s, 0.1s;*/
+    color: white;
+    text-decoration: none;
+}
+
+#NavLeft a:hover {
+    text-decoration: underline;
+}
+
+#MainCenter {
+    /*width: 500px;*/
+    float: left;
+    font-weight: normal;
+    border-right: solid #ddd 1px;
+    border-left: solid #ddd 1px;
+    /*background: rgba(53,73,255,0.47);*/
+
+}
+
+#MainCenter h1 {
+    font-size: 24px;
+}
+
+#MainCenter h2 {
+    font-size: 18px;
+}
+
+#MainCenter p {
+    font-size: 16px;
+}
+
+#MainCenter div {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 100px;
+    min-height: 150px;
+    width: 700px;
+    border-bottom: solid #aaa 1px;
+}
+
+/*#MainCenter h1 {*/
+/*margin-left: 5em;*/
+/*}*/
+
+/*#MainCenter p {*/
+/*font-size: 16px;*/
+/*text-indent: 5em;*/
+/*}*/
+
+#MCD1 {
+    margin-top: 80px;
+    padding: 0px 0px 20px 0px;
+}
+
+#MCD2 {
+    background: url("icon2.png") no-repeat;
+    /*padding: 0px 0px 50px 0px;*/
+}
+
+#SideBar {
+    float: right;
+    width: 178px;
+}
+
+#SideBar ul {
+    text-indent: 1em;
+    list-style-type: none;
+
+}
+
+#SideBar h2 {
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 14px;
+}

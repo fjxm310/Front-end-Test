@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="index.js"></script>
+    <style>
+        /*textarea {*/
+        /*background-color: rgba(255, 178, 0, 0.12);*/
+        /*border: 0;*/
+        /*font-size: 1.5rem;*/
+        /*font-family: 黑体;*/
+
+        /*}*/
+        #liuyanban {
+            width: 400px;
+            min-height: 120px;
+            max-height: 300px;
+            _height: 120px;
+            margin-left: 0;
+            margin-right: auto;
+            padding: 3px;
+            outline: 0;
+            border: 1px solid #d6b237;
+            border-radius: 0.5rem;
+            font-size: 2rem;
+            font-family: 楷体;
+            color: rgba(107, 107, 107, 0.27);
+            word-wrap: break-word;
+            overflow-x: hidden;
+            overflow-y: auto;
+            -webkit-user-modify: read-write-plaintext-only;
+        }
+
+        input[type="button"]:hover {
+            background-color: orangered;
+            font-size: 1.05rem;
+            -webkit-transition: background-color 0.2s;
+            -moz-transition: background-color 1s;
+            -ms-transition: background-color 1s;
+            -o-transition: background-color 1s;
+            transition: background-color 0.2s;
+        }
+
+        input[type="button"] {
+            height: 2rem;
+            width: 6rem;
+            border: 0;
+            font-size: 1rem;
+            background-color: orange;
+            color: white;
+            font-family: 黑体;
+        }
+    </style>
+    <title>简易留言板</title>
+</head>
+<body>
+<h1 style="font-family: 黑体;font-size: 2.5rem;color:white;-webkit-text-stroke: 0.1rem orangered">简易留言板</h1>
+<!--<textarea style="display: block" name="留言板区域" id="liuyanban"  rows="5"></textarea>-->
+<div id="liuyanban" contenteditable="false"  onclick="clicktextarea()">请输入内容...</div>
+<input type="button" id="savemsg" value="保存" onclick="savedata()">
+<input type="button" id="clearmsg" value="撤销" onclick="resetinput()">
+<input type="button" id="loadmsg" value="读取" onclick="loaddata()">
+<input type="button" id="clearmsg" value="清除" onclick="cleardata()">
+<ul id="zhaungtailan">
+</ul>
+</body>
+</html>

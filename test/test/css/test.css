@@ -1,0 +1,132 @@
+body {
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+}
+
+p {
+    line-height: 1em;
+    margin: 0;
+}
+
+.StatusBar p {
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-family: MyriadPro-Regular;
+    margin: 0 12px;
+}
+
+img {
+    display: block;
+}
+
+.TopBar {
+    /*float: left;*/
+    height: 488px;
+    width: 750px;
+    background: url("../images/TopBarBG.png")
+}
+
+.TopBar_Icon > div > p {
+    font-family: 黑体;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 76px;
+}
+
+.MiddleBar > div, .MiddleBar a {
+    line-height: 0;
+    display: block;
+    width: 722px;
+    height: 180px;
+    margin: 0 auto 33px auto;
+}
+
+.TopButton {
+    background: url("../images/TopButton_1.png");
+}
+
+.MiddleButton {
+    background: url("../images/MiddleButton_1.png");
+}
+
+.BottomButton {
+    background: url("../images/BottomButton_1.png");
+}
+
+.TopButton:hover {
+    background: url("../images/TopButton_2.png");
+}
+
+.MiddleButton:hover {
+    background: url("../images/MiddleButton_2.png");
+}
+
+.BottomButton:hover {
+    background: url("../images/BottomButton_2.png");
+}
+
+.MiddleBar h1 {
+    float: left;
+    font-family: 黑体;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    margin: 39px 0 0 192px;
+
+}
+
+.MiddleBar h2 {
+    float: left;
+    font-family: 黑体;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    margin: 9px 0 0 192px;
+}
+
+.BottomBar div {
+    /*margin: 0;*/
+    /**/
+    /*margin-bottom: 5px;margin-top: 11px;*/
+    /*margin: 11px auto 5px auto ;*/
+    height: 81px;
+    width: 140px;
+    /*background-repeat: no-repeat;*/
+    /*background-position: top center;*/
+}
+
+.BottomButton_L a:hover {
+    background: url("../images/BottomButton_L2.png");
+}
+
+.BottomButton_M a:hover {
+    background: url("../images/BottomButton_M2.png");
+}
+
+.BottomButton_R a:hover {
+    background: url("../images/BottomButton_R2.png");
+}
+
+.BottomBar a {
+    display: block;
+    font-family: 黑体;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(162, 174, 187);
+    width: 140px;
+    padding-top: 56px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.BottomBar a:hover {
+    color: rgb(34, 140, 219);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
