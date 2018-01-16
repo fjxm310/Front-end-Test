@@ -9,11 +9,11 @@ body * {
     font-family: 微软雅黑;
 }
 
-#Header_index {
+.Header_index {
     margin: 0 auto;
     padding: 0;
     border: 0px;
-    background: transparent url("bg.png");
+    background: transparent url("../imgs/bg.png");
     background-position: 0px -150px;
     width: 1210px;
     height: 100px;
@@ -21,7 +21,7 @@ body * {
     color: red;
 }
 
-#Header_index a {
+.Header_index a {
     display: block;
     float: left;
     height: 100px;
@@ -29,14 +29,14 @@ body * {
     text-indent: -9999px;
 }
 
-#Header_index a:hover {
+.Header_index a:hover {
 
-    background: transparent url("bg.png");
+    background: transparent url("../imgs/bg.png");
     background-position: 0px -250px;
 
 }
 
-#SearchUI {
+.SearchUI {
     display: inline-block;
     width: 500px;
     height: 100px;
@@ -49,11 +49,11 @@ body * {
 
 }
 
-#SearchUI input {
+.SearchUI input {
     margin-top: 35px;
 }
 
-#SearchUI input[type=submit] {
+.SearchUI input[type=submit] {
     margin-right: 13px;
     margin-left: 13px;
     color: white;
@@ -66,7 +66,7 @@ body * {
     /*right: 0px;*/
 }
 
-#SearchUI input[type=text] {
+.SearchUI input[type=text] {
 
     float: right;
     right: 0px;
@@ -77,27 +77,27 @@ body * {
     /*float: right;*/
 }
 
-#NavTop {
+.NavTop {
 
     margin: 0 auto;
     height: 48px;
     width: 1210px;
-    background: url("bg.png");
+    background: url("../imgs/bg.png");
 
 }
 
-#NavTop a {
+.NavTop a {
     display: block;
     height: 48px;
 }
 
-#NavTop ul {
+.NavTop ul {
     margin: 0;
     padding: 0;
     text-indent: -9999px;
 }
 
-#NavTop li {
+.NavTop li {
 
     float: left;
     display: block;
@@ -105,71 +105,71 @@ body * {
     list-style-type: none;
 }
 
-#NavTopH:hover {
-    background: url("bg.png") 0px -48px no-repeat;
+.NavTopH:hover {
+    background: url("../imgs/bg.png") 0px -48px no-repeat;
 
 }
 
-#NavTopH {
+.NavTopH {
     width: 155px;
 }
 
-#NavTopJ:hover {
-    background: url("bg.png") -155px -48px no-repeat;
+.NavTopJ:hover {
+    background: url("../imgs/bg.png") -155px -48px no-repeat;
 
 }
 
-#NavTopJ {
+.NavTopJ {
     width: 157px;
 }
 
-#NavTopS:hover {
-    background: url("bg.png") -312px -48px no-repeat;
+.NavTopS:hover {
+    background: url("../imgs/bg.png") -312px -48px no-repeat;
 
 }
 
-#NavTopS {
+.NavTopS {
     width: 167px;
 }
 
-#NavTopA:hover {
-    background: url("bg.png") -479px -48px no-repeat;
+.NavTopA:hover {
+    background: url("../imgs/bg.png") -479px -48px no-repeat;
 
 }
 
-#NavTopA {
+.NavTopA {
     width: 158px;
 }
 
-#NavTopX:hover {
-    background: url("bg.png") -637px -48px no-repeat;
+.NavTopX:hover {
+    background: url("../imgs/bg.png") -637px -48px no-repeat;
 
 }
 
-#NavTopX {
+.NavTopX {
     width: 101px;
 }
 
-#NavTopWS:hover {
-    background: url("bg.png") -738px -48px no-repeat;
+.NavTopWS:hover {
+    background: url("../imgs/bg.png") -738px -48px no-repeat;
 
 }
 
-#NavTopWS {
+.NavTopWS {
     width: 185px;
 }
 
-#NavTopWB:hover {
+.NavTopWB:hover {
     /*transition:background 2s;*/
-    background: url("bg.png") -923px -48px no-repeat;
+    background: url("../imgs/bg.png") -923px -48px no-repeat;
 
 }
 
-#NavTopWB {
+.NavTopWB {
     width: 177px;
 }
 
-#MainBody {
+.MainBody {
     /*float: left;*/
 
     overflow: hidden;
@@ -181,7 +181,7 @@ body * {
     border-left: solid #ddd 1px;
 }
 
-#NavLeft {
+.NavLeft {
     float: left;
     padding: 0;
     /*margin-left: 20px;*/
@@ -190,22 +190,22 @@ body * {
     text-decoration: none;
 }
 
-#NavLeft * {
+.NavLeft * {
     text-decoration: none;
 }
 
-#NavLeft ul {
+.NavLeft ul {
     margin: 0;
     padding: 0
 }
 
-#NavLeft h2 {
+.NavLeft h2 {
     margin: 1em 0 0.5em 1em;
     padding: 0;
     font-size: 14px;
 }
 
-#NavLeft > a {
+.NavLeft > a {
     margin: 0em 0 0em 1em;
 
     font-weight: bold;
@@ -216,7 +216,7 @@ body * {
 
 }
 
-#NavLeft > ul > li > a {
+.NavLeft > ul > li > a {
     font-size: 10px;
     display: block;
     padding: 5px 0px 5px 20px;
@@ -226,7 +226,7 @@ body * {
 
 }
 
-#NavLeft li > a:hover {
+.NavLeft li > a:hover {
     background: rgb(170, 170, 170);
     /*transition:background,color 0.2s,0.2s  ;*/
     /*transition: background, color 0.1s, 0.1s;*/
@@ -234,11 +234,11 @@ body * {
     text-decoration: none;
 }
 
-#NavLeft a:hover {
+.NavLeft a:hover {
     text-decoration: underline;
 }
 
-#MainCenter {
+.MainCenter {
     /*width: 500px;*/
     float: left;
     font-weight: normal;
@@ -248,19 +248,19 @@ body * {
 
 }
 
-#MainCenter h1 {
+.MainCenter h1 {
     font-size: 24px;
 }
 
-#MainCenter h2 {
+.MainCenter h2 {
     font-size: 18px;
 }
 
-#MainCenter p {
+.MainCenter p {
     font-size: 16px;
 }
 
-#MainCenter div {
+.MainCenter div {
     margin-left: 25px;
     margin-right: 25px;
     padding-left: 100px;
@@ -269,37 +269,37 @@ body * {
     border-bottom: solid #aaa 1px;
 }
 
-/*#MainCenter h1 {*/
+/*.MainCenter h1 {*/
 /*margin-left: 5em;*/
 /*}*/
 
-/*#MainCenter p {*/
+/*.MainCenter p {*/
 /*font-size: 16px;*/
 /*text-indent: 5em;*/
 /*}*/
 
-#MCD1 {
+.MCD1 {
     margin-top: 80px;
     padding: 0px 0px 20px 0px;
 }
 
-#MCD2 {
-    background: url("icon2.png") no-repeat;
+.MCD2 {
+    background: url("../imgs/icon2.png") no-repeat;
     /*padding: 0px 0px 50px 0px;*/
 }
 
-#SideBar {
+.SideBar {
     float: right;
     width: 178px;
 }
 
-#SideBar ul {
+.SideBar ul {
     text-indent: 1em;
     list-style-type: none;
 
 }
 
-#SideBar h2 {
+.SideBar h2 {
     margin: 0;
     padding: 0.5rem;
     font-size: 14px;
