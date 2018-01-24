@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vertical center test</title>
+    <style>
+        .parentdiv {
+            height: 500px;
+            width: 500px;
+            border: solid red 1px;
+        }
+        /*.childdiv {*/
+        /*!*position+元素沿y轴移动*!*/
+        /*height: 60px;*/
+        /*border: solid red 20px;*/
+        /*position: relative;*/
+        /*top: 50%;*/
+            /*transform:translateY(-50%);*/
+            /*!*利用css3属性，沿y轴移动*!*/
+        /*}*/
+
+        /*.childdiv {*/
+        /*!*position+元素负数margin*!*/
+        /*height: 60px;*/
+        /*border: solid red 20px;*/
+        /*position: relative;*/
+        /*top: 50%;*/
+        /*margin-top: -50px;*/
+        /*!*顶部50%间隔50%，元素本身要上移自身的50%*!*/
+        /*}*/
+        .childdiv {
+            height: 100px;
+            display:table-cell;
+            vertical-align:middle;
+
+            border: solid red 20px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="parentdiv">
+    <div class="childdiv"><p>测试测试</p></div>
+</div>
+</body>
+</html>

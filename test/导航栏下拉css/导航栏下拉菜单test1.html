@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>123</title>
+    <style>
+        a {
+            font-size: 20px;
+            font-family: 黑体;
+            display: block;
+            color: white;
+            text-decoration: none;
+            background: #767676;
+            width: 200px;
+            height: 50px;
+            float: left;
+            border-left: solid #999999 1px;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        ul {
+            color: white;
+            list-style: none;
+            text-indent: 0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            /*line-height: 50px;*/
+            background: #333333;
+            /*margin-top: 50px;*/
+            height: 0;
+            overflow: hidden;
+            transition: height linear 0.2s;
+            /*transition: background 1s;*/
+        }
+
+        a:hover > ul {
+            height: 200px;
+            transition: height linear 0.2s;
+        }
+
+        /*.u1l1 {*/
+        /*background: #333333;*/
+        /*transition: background 0.1s;*/
+        /*}*/
+
+        .u1 > li:hover {
+            background: #888888;
+            transition: background 0.1s;
+        }
+
+        .u1l1:hover > .u1l1u2 {
+
+            height: 200px;
+            width: 200px;
+            /*margin-left: 200px;*/
+            transform: translateX(195px);
+            background: #13ff0a;
+            color: white;
+        }
+
+        .u1l1:hover {
+            width: 400px;
+            background: #888888;
+        }
+
+    </style>
+</head>
+<body>
+<div class="nav">
+    <a href="#">
+        行1
+        <ul class="u1">
+            <li class="u1l1">列1
+                <ul class="u1l1u2">
+                    <li class="u1l1u2li">列1-1</li>
+                    <li class="u1l1u2li">列1-2</li>
+                    <li class="u1l1u2li">列1-3</li>
+                    <li class="u1l1u2li">列1-4</li>
+                </ul>
+            </li>
+            <li class="u1l2">列2</li>
+            <li class="u1l3">列3</li>
+            <li class="u1l4">列4</li>
+        </ul>
+    </a>
+
+    <a href="#">
+        行2
+    </a>
+    <a href="#">
+        行3
+    </a>
+    <a href="#">
+        行4
+    </a>
+</div>
+</body>
+</html>
